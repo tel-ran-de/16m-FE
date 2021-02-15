@@ -1,0 +1,42 @@
+td {
+  color: rgb(78, 9, 78);
+}
+
+#numberOne {
+  background-color: rgb(130, 158, 243);
+}
+.numberTwoandFive {
+  color: rgb(78, 9, 78);
+  background-color: rgb(255, 209, 204);
+}
+#numberThree {
+  color: rgb(78, 9, 78);
+  background-color: rgb(228, 107, 107);
+}
+#numberFour {
+  color: rgb(78, 9, 78);
+  background-color: rgb(231, 243, 213);
+}
+#numberSix {
+  color: rgb(78, 9, 78);
+  background-color: rgb(192, 145, 26);
+}
+.numberSevenEight {
+  color: rgb(78, 9, 78);
+  background-color: aqua;
+}
+.numberNinetoTwelve {
+  color: rgb(78, 9, 78);
+  background-color: rgba(245, 222, 179, 0.925);
+}
+.number13to15 {
+  color: rgb(78, 9, 78);
+  background-color: rgba(56, 129, 56, 0.349);
+}
+#numberSixteen {
+  color: rgb(78, 9, 78);
+  background-color: rgba(128, 128, 128, 0.575);
+}
+#numberFourteen {
+  width: 40%;
+}

@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(234, 245, 248);
+}
+
+div::first-line {
+  color: rgba(225, 65, 164, 0.205);
+}
+
+div {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+}
+
+a[href = "https://www.huffpost.com/entry/venice-beach-is-the-best-_b_5313415?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAFx88jc1wZHltS0J4eV6fn6wGC0Q0sfYR7Ls5To2VEaXJwpPQx91b2P8pFN3JDmGg9wA70grduCF-DmrzCUSNm2YPzUYoGPsDVfE8ndc8I56oDtDl3wMepK3a3KZ8l1ky3nwkyS4X3zRuJK9mIfNpptyBx7F9KUVxQ2X7HhAwRS9"]
+{
+  color: rgba(243, 225, 181, 0.856);
+}
+
+.list {
+  color: rgba(228, 203, 142, 0.89);
+  font-family: fantasy;
+  font-size: 30px;
+}
+#VeniceBeach {
+  width: 500px;
+  border-radius: 10%;
+  border: solid 20px;
+  border-color: rgb(211, 226, 240);
+}
+
+figcaption {
+  color: rgb(211, 226, 240);
+  font-size: 20px;
+  font-family: cursive;
+}
+span {
+  border: 1px solid black;
+}
+.box {
+  text-align: center;
+}

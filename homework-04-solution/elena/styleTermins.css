@@ -1,0 +1,30 @@
+dt {
+  color: red;
+  font-weight: bold;
+  quotes: "<<<<<" ">>>>>";
+  border-style: ridge;
+  background-color: rgb(199, 214, 218);
+}
+dt::before {
+  content: open-quote;
+}
+dt::after {
+  content: close-quote;
+}
+
+abbr, address, code, aside {
+  color: seagreen;
+}
+
+aside {
+  width: 40%;
+  float: right;
+  font-style: italic;
+}
+
+p {
+  color: slateblue;
+}
+dd {
+  border-style: dotted;
+}

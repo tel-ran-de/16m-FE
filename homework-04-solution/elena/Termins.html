@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Описание тегов</title>
+    <link rel="stylesheet" href="styleTermins.css">
+</head>
+
+<body>
+    <h1>Описание некоторых тегов </h1>
+    <dl>
+        <dt>
+            abbr
+        </dt>
+        <dd>
+            Тег показывает, что текст внутри тега является аббревиатурой <br>
+            <b>Написание</b>
+            <p>&lt;abbr&gt;Аббревиатура&lt;/abbr&gt; </p>
+            </tr>
+            Добавление <mark>title </mark> дает всплывающую подсказку расшифорвки аббревиатуры<br>
+            <p>
+                < abbr title="Расшифровка">Аббревиатура&lt;/abbr&gt
+            </p>
+            <b> Пример:</b>
+            <p>
+                < abbr title="National Aeronautics and Space Administration">NASA&lt;/abbr>
+            </p>
+            <b>Отображение:</b>
+            <abbr title="National Aeronautics and Space Administration">NASA</abbr>
+            <br>
+        </dd>
+        <dt>
+            address
+        </dt>
+        <dd>
+            Определяет содержимое тега как контактную информацию.
+            Исользование тега <mark>&lt;adress&gt </mark> внутри
+            тега <mark>&lt;article&gt </mark>
+            определяет принадлежность контактной ифнормации к автору статьи.
+            В другом случае: контактная информация относится к странице в целом. <br>
+            <b>Написание</b>
+            <p>&lt;address&gt;Контактная информация&lt;/address&gt; </p>
+            <b>Пример:</b>
+            <p> &lt;address>
+                Вы можете написать мне &lt;a href="mailto:mymail@mymail.com">Имя  <br>
+                или &lt;a href="www.mysite.my">Мой сайт для связи
+                &lt;/address></p>
+            <b>Отображение:</b>
+            <address>Вы можете написать мне <a href="mailto:mymail@mymail.com">Имя</a> <br>
+                <a href="www.site.my">Мой сайт для связи </a>
+            </address>
+            </p>
+        </dd>
+        <dt>aside</dt>
+        <dd>
+            Появляется блок сбоку от контента, с неосновным содержимым, например дополнительные
+            комментарии, справочная информация <br>
+            <b>Написание</b>
+            <p> &lt;aside> Текст &lt;/aside&gt;</p>
+            <b>Пример:</b>
+            <p> &lt;aside>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati magnam repellendus eum animi non
+                illo, rem officiis dignissimos beatae voluptatum adipisci fugit, numquam veniam laborum dolor voluptate
+                porro quam ducimus.
+                &lt;/aside></p>
+            <b>Отображение:</b>
+            <aside>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </aside>
+            </p>
+        </dd>
+        <dt>code</dt>
+        <dd>
+            Используется для отображения программного кода. Обычно отображается уменьшенным шрифтом <br>
+            <b>Написание</b>
+            <p> &lt;code>программный код &lt;/code&gt;</p>
+            <b>Пример:</b> <br>
+            <p>&lt;code>for (int i = left; i < right; i++) { if (books[i].price> books[i + 1].price) &lt;/code&gt;</p>
+            <b>Отображение:</b> <br>
+            <code>for (int i = left; i < right; i++) {
+            if (books[i].price > books[i + 1].price)</code>
+        </dd>
+        <dt>caption</dt>
+        <dd>
+            Определяет заголовок или название таблицы, поэтому размещается только внутри
+            <mark>&lt;table> </mark>
+            По умолчанию, заголовок выводится над таблицей и выравнивается по центру. <br>
+            <b>Написание</b>
+            <p> &lt;caption>Заголовок &lt;/caption&gt;</p>
+            <b>Пример:</b> <br>
+            <p> &lt;table border="1">
+                &lt;caption>Времена года&lt;/caption&gt;
+                &lt;tr>
+                &lt;th>Месяц&lt;/th>
+                &lt;th>Время года&lt;/th>
+                &lt;/tr>
+                &lt;tr>
+                &lt;td>Декабрь&lt;/td>
+                &lt;td>Январь&lt;/td>
+                &lt;/tr>
+                &lt;/table>
+            </p>
+            <b>Отображение:</b> <br>
+            <table border="1">
+                <caption>Времена года</caption>
+                <tr>
+                    <th>Месяц</th>
+                    <th>Время года</th>
+
+                </tr>
+                <tr>
+                    <td>Декабрь</td>
+                    <td>Зима</td>
+                </tr>
+            </table>
+        </dd>
+        <dt>cite</dt>
+        <dd>
+            Предназначен для выделения названия работы (например, книг,веб-сайтов, песен, фильмов, живописи и тд).
+            Текст помечается курсивным начертанием. <br>
+            <b>Написание</b>
+            <p>&lt;cite&gt;текст&lt;/cite&gt; </p>
+
+            <b>Пример:</b> <br>
+            <p>&lt;cite> «Дюна» &lt;/cite&gt; — один из самых известных научно-фантастических романов XX века</p>
+            <b>Отображение:</b> <br>
+            <cite>«Дюна»</cite> — один из самых известных научно-фантастических романов XX века
+        </dd>
+        <dt>fieldset</dt>
+        <dd>
+            Контейнер для других элементов, при отображении в браузере по умолчанию он выделяется рамкой и имеет
+            небольшой внутренний отступ со всех сторон.
+            Обычно его используют для визуального выделения группы логически связанных между собой элементов формы. <br>
+            <b>Написание</b>
+            <p>&lt;fieldset&gt;текст&lt;/fieldset&gt; </p>
+            <b>Пример:</b> <br>
+            <p> &lt;form> <br>
+                &lt;fieldset> <br>
+                &lt; legend>Регистрация:&lt;/legend> <br>
+                Имя: &lt;input type="text">&lt;br> <br>
+                Фамилия: &lt;input type="text">&lt;br> <br>
+                e-mail: &lt;input type="email"> <br>
+                &lt;/fieldset> <br>
+                &lt;/form>
+            </p>
+            <b> Отображение:</b> <br>
+            <form>
+                <fieldset>
+                    <legend>Регистрация:</legend>
+                    Имя: <input type="text"><br>
+                    Фамилия: <input type="text"><br>
+                    e-mail: <input type="email">
+                </fieldset>
+            </form>
+        </dd>
+
+        <dt>figcaption</dt>
+        <dd>
+            Заголовок для <mark>&lt;figure></mark> элемента <br>
+            <b>Написание</b>
+            <p>&lt;figure>&lt;figcaption&gt;текст&lt;/figcaption&gt;&lt;/figure> </p>
+
+            <b> Пример: </b><br>
+            <p>&lt;figure>
+                &lt;img src="iguana.jpg" alt="Iguana" width="161" height="100">
+                &lt;figcaption>Это игуана.&lt;/figcaption>
+                &lt;/figure> </p>
+            <b>Отображение:</b> <br>
+            <figure>
+                <img src="iguana.jpg" alt="Iguana" width="161" height="100">
+                <figcaption>Это игуана.</figcaption>
+            </figure>
+        </dd>
+        <dt>legend</dt>
+        <dd>
+            Тег применяется для создания заголовка группы элементов формы, которая определяется с помощью вышеописанного
+            тега <mark>&lt;fieldset></mark>. Группа элементов обозначается в браузере с помощью рамки,
+            а текст, который располагается внутри контейнера <mark>&lt;legend></mark>, встраивается в эту рамку. <br>
+            <b>Написание</b>
+            <p>&lt;legend&gt;текст&lt;/legend&gt; </p>
+            <b> Пример: </b><br>
+            <p> &lt;form> <br>
+                &lt;fieldset> <br>
+                &lt; legend>Регистрация:&lt;/legend> <br>
+                Имя: &lt;input type="text">&lt;br> <br>
+                Фамилия: &lt;input type="text">&lt;br> <br>
+                e-mail: &lt;input type="email"> <br>
+                &lt;/fieldset> <br>
+                &lt;/form>
+            </p>
+            <b> Отображение:</b> <br>
+            <form>
+                <fieldset>
+                    <legend>Регистрация:</legend>
+                    Имя: <input type="text"><br>
+                    Фамилия: <input type="text"><br>
+                    e-mail: <input type="email">
+                </fieldset>
+            </form>
+        </dd>
+        <dt>mark</dt>
+        <dd>
+            Помечает текст как выделенный. Такой текст ничем не отличается от обычного, но его вид может быть изменен с
+            помощью стилей.
+            В браузере Chrome и Firefox фоновый цвет текста внутри &lt;mark> выделяется желтым цветом. <br>
+            <b>Написание</b>
+            <p>&lt;mark&gt;текст&lt;/mark&gt; </p>
+
+            <b>Пример:</b> <br>
+            <p>&lt;mark> «Дюна» &lt;/mark&gt; — один из самых известных научно-фантастических романов XX века</p>
+            <b> Отображение:</b> <br>
+            <mark>«Дюна»</mark> — один из самых известных научно-фантастических романов XX века
+        </dd>
+        <dt>output</dt>
+        <dd>
+            используется для вывода результатов вычисления, полученных, как правило, при помощи скрипта. <br>
+            <b>Пример</b>
+
+            <p>&lt;form
+                oninput="rectangle_square.value=parseInt(rectangle_length.value)*parseInt(rectangle_width.value);"> <br>
+                &lt;p>Вычисление площади прямоугольника&lt;/p>
+                Длина: &lt;input type="number" name="rectangle_length" id="rectangle_length">&lt;br><br>
+                Ширина: &lt;input type="number" name="rectangle_width" id="rectangle_width">&lt;br><br>
+                Площадь: &lt;output name="rectangle_square" for="rectangle_length rectangle_width">&lt;/output></p>
+
+
+            <b> Отображение:</b>
+
+            <p>Вычисление площади прямоугольника</p>
+            <form oninput="rectangle_square.value=parseInt(rectangle_length.value)*parseInt(rectangle_width.value);">
+
+                Длина: <input type="number" name="rectangle_length" id="rectangle_length"><br><br>
+                Ширина: <input type="number" name="rectangle_width" id="rectangle_width"><br><br>
+                Площадь: <output name="rectangle_square" for="rectangle_length rectangle_width"></output>
+            </form>
+            <br>
+        </dd>
+        <dt>optgroup</dt>
+        <dd>
+            Представляет собой контейнер, внутри которого располагаются теги <mark>&lt;option></mark> и используется для
+            группировки связанных логически вариантов в выпадающем списке.
+            Тег <mark>&lt;optgroup> </mark> не выделяется, как обычный элемент списка, а выглядит как заголовок жирного
+            начертания. Все элементы (тег <mark>&lt;option></mark>), входящие в этот контейнер,
+            смещаются немного вправо от своего исходного положения. <br>
+
+            <b> Пример: </b><br>
+            <p>
+                &lt;select> <br>
+                &lt;optgroup label="Цикл Dune"> <br>
+                &lt;option value="Dune">Dune&lt;/option> <br>
+                &lt;option value="Dune Messiah">Dune Messiah&lt;/option> <br>
+                &lt;option value="Children of Dune">Children of Dune&lt;/option> <br>
+                &lt;/optgroup> <br>
+                &lt;/select> <br>
+
+            </p>
+            <b> Отображение:</b> <br>
+            <select>
+                <optgroup label="Цикл Dune">
+                    <option value="Dune">Dune</option>
+                    <option value="Dune Messiah">Dune Messiah</option>
+                    <option value="Children of Dune">Children of Dune</option>
+                </optgroup>
+            </select>
+        </dd>
+        <dt>option</dt>
+        <dd>
+            используется для указания вариантов ответа, которые может выбрать посетитель сайта. Текст, помещенный между
+            тегами <mark>&lt;option> </mark> и <mark>&lt;/option> </mark> и , будет отображаться в качестве пунктов
+            раскрывающегося списка.
+            Определяет отдельные пункты списка, создаваемого с помощью контейнера <mark>&lt;select> </mark>.
+            Ширина списка будет определяться самым длинным текстом, указанным в элементе. <br>
+            Пример: <br>
+            <p>
+                &lt;select name="Дессерты"> <br>
+                &lt;option value="1">Мороженое клубничное&lt;/option> <br>
+                &lt;option value="2">Павлова&lt;/option> <br>
+                &lt;option value="3">Чизкейк&lt;/option> <br>
+                &lt;option value="4">Шарлотка&lt;/option> <br>
+                &lt;option value="5">Птичье молоко&lt;/option> <br>
+                &lt;option value="6">Круассаны&lt;/option> <br>
+                &lt;/select>
+            </p>
+            <b> Отображение:</b> <br>
+            <select name="Дессерты">
+                <option value="1">Мороженое клубничное</option>
+                <option value="2">Павлова</option>
+                <option value="3">Чизкейк</option>
+                <option value="4">Шарлотка</option>
+                <option value="5">Птичье молоко</option>
+                <option value="6">Круассаны</option>
+            </select>
+
+        </dd>
+        <dt>picture</dt>
+        <dd>
+            контейнером для одного или более элементов <mark>&lt;source> </mark> и одного элемента <mark>&lt;img>
+            </mark>
+            для обеспечения оптимальной версии изображения для различных размеров экрана <br>
+            Браузер по очереди рассматривает содержание дочерних элементов<mark>&lt;source> </mark>, и в случае, если ни
+            одно из указанных условий для загрузки изображений
+            не может быть удовлетворено, браузер загружает изображение, указанное в теге <mark>&lt;img> </mark>.
+            <b>Написание</b>
+            <p>&lt;picture><br>
+                &lt;source media="(min-width: 100px)" srcset="aperitif1.jpg"> <br>
+                &lt;source media="(min-width: 100px)" srcset="aperitif2.jpg"> <br>
+                &lt;img src="food.jpg" alt="Food" style="width:190;" height="190"><br>
+                &lt;/picture> </p><br>
+
+            <b> Отображение:</b> <br>
+            <picture>
+                <source media="(max-width: 786)" srcset="aperitif1.jpg">
+                <source media="(min-width: 100px)" srcset="aperitif2.jpg">
+                <img src="food.jpg" alt="Food" style="width:190;" height="190">
+            </picture> <br>
+
+
+            <b> Пример:</b> <br>
+            Хорошая статья на эту тему : <a
+                href="https://webdesign.tutsplus.com/ru/tutorials/quick-tip-how-to-use-html5-picture-for-responsive-images--cms-21015">как
+                использовать HTML "picture" для адаптивных изображений</a>
+
+        </dd>
+        <dt>progress</dt>
+        <dd>
+            Используется для отображения прогресса завершенности задачи.
+            Индикатор выполнения (прогресса). Изменение значения происходит через JavaScript. <br>
+            <b>Написание</b>
+            <p>&lt;progress value="число" max="число" &gt;текст&lt;/progress&gt; </p>
+
+            <b> Пример:</b> <br>
+            <p>&lt;progress value="22" max="100">&lt;/progress> </p>
+            <b>Отображение:</b> <br>
+            <progress value="22" max="100"></progress>
+        </dd>
+        <dt>section</dt>
+        <dd>
+            раздел веб-страницы.
+            В этом контексте раздел - это тематическая группировка содержимого документа, как правило, с собственным
+            заголовком. <br>
+            каждый элемент <mark>&lt;section> </mark> , расположенный на странице, может содержать собственный заголовок
+            первого уровня <mark>&lt;h1> </mark> ,
+            так же есть возможность вложение одного такого элемента внутрь другого. <br>
+
+            <b>Написание</b>
+            <p>&lt;section&gt; <br>
+                &lt;h1>Лучшие вина 2015&lt;/h1> <br>
+                &lt;p>2015 год был особено хорош для красного Бордо..&lt;/p> <br>
+
+                &lt;/section&gt; </p>
+
+
+            <b> Отображение:</b> <br>
+            <section&gt; <br>
+                <h1>Лучшие вина 2015</h1> <br>
+                <p>2015 год был особенно хорош для красного Бордо..</p>
+                </section>
+        </dd>
+        <dt>samp</dt>
+        <dd>
+            Определяет текст как результат вывода компьютерной программы. <br>
+            Браузеры обычно отображают текст моноширинным шрифтом. <br>
+            Помимо тега <mark>&lt;samp> </mark> в HTML используются другие теги логического форматирования текста,
+            связанные с компьютерным вводом: <mark>&lt;code> </mark> - код компьютерной программы, <mark>&lt;kbd>
+            </mark> - название клавиш на клавиатуре, <mark>&lt;var> </mark>- переменная компьютерной программы. <br>
+
+
+            <b>Написание</b>
+            <p>&lt;samp>текст&lt;/samp> </p>
+
+
+            <b>Отображение:</b> <br>
+            Pезультат вывода компьютерной программы: <samp>Hello World</samp>
+        </dd>
+        <dt>summary</dt>
+        <dd>
+            Указывает заголовок для тега <mark>&lt;details> </mark>, по которому можно щелкать для
+            разворачивания/сворачивания информации.
+            Тег <mark>&lt;summary> </mark> должен идти первым внутри <mark>&lt;details> </mark>. <br>
+            <b>Написание</b>
+            <p>&lt;details> <br>
+                &lt;summary>Текст&lt;/summary> <br>
+                &lt;/details> </p> <br>
+
+            <b> Пример:</b> <br>
+            <p>&lt;summary>Wine 2015&lt;/summary> <br>
+                &lt;p> Chateau Cerestin La Lande, Medoc АОC, 2015 &lt;/p> <br>
+                &lt;p> Sichel, "Chateau Argadens" Rouge, Bordeaux Superieur AOC, 2015 &lt;/p> <br>
+                &lt;p> "Chateau Le Loup", Saint-Emilion Gran Cru AOC, 2015 &lt;/p> <br>
+                &lt;/details> </p>
+            <b>Отображение:</b> <br>
+            <details>
+                <summary>Wine 2015</summary>
+                <p> Chateau Cerestin La Lande, Medoc АОC, 2015 </p>
+                <p> Sichel, "Chateau Argadens" Rouge, Bordeaux Superieur AOC, 2015 </p>
+                <p> "Chateau Le Loup", Saint-Emilion Gran Cru AOC, 2015 </p>
+            </details>
+        </dd>
+        <dt>tfoot</dt>
+        <dd>
+            Определяет границы нижнего колонтитула таблицы HTML.
+            Используется в HTML таблицах определенных тегом <mark>&lt;table> </mark>.
+            Внутри тега <tfoot> должен быть один или несколько элементов <mark>&lt;tr> </mark> - строк таблицы. <br>
+
+                <b>Написание</b>
+                <p>&lt;tfoot>элементы tr с HTML контентом&lt;/tfoot> </p>
+        </dd>
+        <dt>th</dt>
+        <dd>
+            Тег <mark>&lt;th> </mark> предназначен для создания одной ячейки таблицы, которая обозначается как
+            заголовочная. Текст в такой ячейке отображается браузером обычно жирным шрифтом и выравнивается по центру.
+            Тег <mark>&lt;th> </mark> должен размещаться внутри
+            контейнера <mark>&lt;tr> </mark> , который в свою очередь располагается внутри тега <mark>&lt;table> </mark>
+            . <br>
+            <b>Написание</b>
+            <p>&lt; table> <br>
+                &lt;tr> <br>
+                &lt;th>...&lt;/th> <br>
+                &lt;/tr> <br>
+                &lt;/table> </p>
+        </dd>
+        <dt>thead</dt>
+        <dd>
+            Предназначен для хранения одной или нескольких строк, которые представлены вверху таблицы.
+            Допустимо использовать не более одного элемента в пределах одной таблицы, и он должен идти в исходном коде
+            сразу после тега <mark>&lt;table> </mark> . <br>
+            <b>Написание</b>
+            <p>
+                &lt;table> <br>
+                &lt;thead> <br>
+                &lt;tr> <br>
+                &lt;td> ... &lt;/td> <br>
+                &lt;/tr> <br>
+                &lt;/thead> <br>
+                &lt;tfoot> ... &lt;/tfoot> <br>
+                &lt;tbody> ... &lt;/tbody> <br>
+                &lt;/table>
+            </p>
+        </dd>
+        <dt>time</dt>
+        <dd>
+            Помечает текст внутри тега как дата, время или оба значения.
+            <b>Написание</b>
+            <p>&lt;time>дата и время&lt;/time></p>
+
+            <b> Пример: </b><br>
+            <p> Премьера фильма в США состоится &lt;time> 2021.10.01 &lt;/time&gt; </p>
+            <b> Отображение: </b><br>
+            <p> Премьера фильма в США состоится <time> 2021.10.01 </time&gt; </p>
+        </dd>
+        <dt>track</dt>
+        <dd>
+            Oпределяет текстовую дорожку для медиафайла (видео или аудио).
+
+            Тег должен быть дочерним элементом тегов <mark>&lt;video> </mark> или <mark>&lt;audio> </mark>.
+            Данные содержатся в файле, указанном в атрибуте <mark>&lt;src> </mark> и выводятся во время воспроизведения
+            медиафайла. <br>
+            <b>Написание</b>
+            <p>&lt;track src="URL_источника"></p>
+
+            <b> Пример:</b> <br>
+            <p>
+                &lt;video autoplay="autoplay" poster="video_poster.jpg"> <br>
+                &lt;source src="video.mp4" type="video/mp4"> <br>
+                &lt;source src="video.webm" type="video/webm"> <br>
+                &lt;track src="subtitles_english.vtt" kind="subtitles" label="English" srclang="en"> <br>
+                &lt;track src="subtitles_russian.vtt" kind="subtitles" label="Русский" srclang="ru"> <br>
+                &lt;/video> <br>
+            </p>
+        </dd>
+        <dt>meter</dt>
+        <dd>
+            Используется для вывода значения в некотором известном диапазоне. Используется преимущественно для
+            отображения числовых значений, например, количества результатов поиска, объема жидкости, давления и др. <br>
+            <b>Атрибуты</b>
+            <p>
+            <ul>
+                <li> value Устанавливает значение. Обязательный атрибут.</li>
+                <li> min Задает минимально возможное значение.</li>
+                <li> max Задает максимально возможное значение.</li>
+                <li>low Определяет предел, при достижении которого значение считается низким</li>
+                <li>high Определяет предел, при достижении которого значение считается высоким.</li>
+                <li>optimum Определяет наилучшее или оптимальное значение.</li>
+            </ul>
+            </p>
+
+            <b> Пример: </b><br>
+            <p>&lt;meter value="2" min="0" max="10">2 из 10&lt;/meter><br>
+                &lt;meter value="0.6">60%&lt;/meter> </p>
+            Отображение: <br>
+            <meter value="2" min="0" max="10">2 из 10</meter><br>
+            <meter value="0.6">60%</meter>
+        </dd>
+        <dt>nav</dt>
+        <dd>
+            Контейнер для навигационных элементов. Если на странице несколько блоков ссылок, то обычно помещают
+            приоритетные ссылки. Также допустимо использовать несколько тегов <nav> в документе.
+                Запрещается вкладывать <mark>&lt;nav> </mark> внутрь <mark>&lt;address> </mark>. <br>
+
+                <b> Пример:</b> <br>
+                <p>
+                    &lt;nav>
+                    &lt;a href="/Rotwein/">Rotwein</a> <br>
+                    &lt;a href="/Weisswein/">Weisswein</a> <br>
+                    &lt;a href="/Sekt/">Sekt</a> <br>
+                    &lt;a href="/Rosewein/">Rosewein</a> <br>
+            </nav>
+            </p>
+            <b> Отображение:</b> <br>
+            <nav>
+                <a href="/Rotwein/">Rotwein</a>
+                <a href="/Weisswein/">Weisswein</a>
+                <a href="/Sekt/">Sekt</a>
+                <a href="/Rosewein/">Rosewein</a>
+            </nav>
+        </dd>
+        <dt>menu</dt>
+        <dd>
+            Контейнер для списка пунктов меню <br>
+            <mark> Устаревший тег, не поддерживается большинством браузеров. </mark> <br>
+
+            <b> Пример:</b> <br>
+            <p>&lt;menu label="Файл">
+                &lt;button type="button">Новый...&lt;/button> <br>
+                &lt;button type="button">Открыть...&lt;/button> <br>
+                &lt;button type="button">Сохранить&lt;/button>/p> <br>
+                <b> Отображение:</b> <br>
+                <menu label="Файл">
+                    <button type="button">Новый...</button>
+                    <button type="button">Открыть...</button>
+                    <button type="button">Сохранить</button>
+                </menu>
+
+        <dt>menuitem</dt>
+        <dd>
+            Определяет элементы, которые пользователь может вызвать из контекстного меню <br>
+            <mark> Устаревший тег, не поддерживается большинством браузеров. </mark> <br>
+        </dd>
+        <dt>keygen</dt>
+        <dd>
+            Используется для генерации пары ключей — закрытого и открытого для форм. Сами ключи необходимы для
+            шифрования и расшифровки данных.
+            При отправке формы, закрытый ключ сохраняется на локальном компьютере, а открытый ключ передается на сервер
+            вместе с формой. <br> <b>Написание</b>
+
+            <b> Пример: </b><br>
+            <p>&lt;form action="demo_keygen.asp" method="get"> <br>
+                Имя пользователя: &lt;input type="text" name="usr_name"><br>
+                Шифрование: &lt;keygen name="защита"> <br>
+                &lt;input type="submit"> <br>
+                &lt;/form>
+
+            </p>
+            <b>Отображение:</b> <br>
+            <form action="demo_keygen.asp" method="get">
+                Имя пользователя: <input type="text" name="usr_name">
+                Шифрование: <keygen name="защита">
+                <input type="submit">
+            </form>
+        </dd>
+        <dt>main</dt>
+        <dd>
+            Основной контент. Предназначен для основного содержимого документа. Содержимое должно быть уникальным и не
+            включать типовые блоки вроде шапки сайта,
+            подвала, навигации, боковой панели, формы поиска и т. п, например: меню, информацию об авторских правах или
+            форму поиска. <br>
+            <b>Написание</b>
+            <p>&lt;main&gt;текст&lt;/main&gt; </p>
+        </dd>
+        <dt>embed</dt>
+        <dd>
+            Контейнер для внешнего приложения, используется для загрузки и отображения объектов (например, видеофайлов,
+            флэш-роликов, некоторых звуковых файлов и т.д.), которые исходно браузер не понимает. Как правило, такие
+            объекты требуют подключения к браузеру специального модуля, который называется плагин, или запуска
+            вспомогательной программы. <br>
+            <b>Написание</b>
+            <p>&lt;embed width="..." height="...">&lt;/embed></p>
+        </dd>
+    </dl>
+</body>
+
+</html>
