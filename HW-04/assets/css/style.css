@@ -1,0 +1,76 @@
+body {
+  background: gray url(../img/bg-image.png);
+}
+
+img.tr-logo {
+  width: 250px;
+}
+
+table.main-table {
+  width: 1000px;
+  margin: 50px auto;
+  text-align: center;
+  border: 1px solid black;
+}
+tr.top-row {
+  background-color: #b9b9b9;
+}
+
+tr.middle-row {
+  background-color: white;
+}
+tr.bottom-row {
+  background-color: #007700;
+}
+
+tr.bottom-row td img {
+  width: 150px;
+  margin: 10px auto;
+}
+
+tr.middle-row td {
+  width: 50%;
+  vertical-align: top;
+}
+tr.middle-row p {
+  text-align: left;
+  margin: 0 10px 10px 10px;
+}
+
+input {
+  border: 1px solid green;
+  border-radius: 5px;
+  margin: 15px auto;
+  font-size: 20px;
+  padding: 10px;
+  width: 60%;
+}
+
+.btn {
+  color: white;
+  width: 60%;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px auto;
+}
+
+.secondary {
+  background-color: #ff9900;
+}
+
+.primary{
+    background-color: blue;
+    width: 40%;
+}
+
+.danger{
+    background-color: red;
+}
+
+.info{
+    background-color: green;
+    border-radius: 15px;
+}
