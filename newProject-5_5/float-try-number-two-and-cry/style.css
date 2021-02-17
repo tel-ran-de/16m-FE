@@ -1,0 +1,49 @@
+body{
+    background-color: beige;
+}
+.main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+img{
+    width: 200px;
+    border: 2px dotted blueviolet;
+    padding: 5px;
+    margin: 0 10px 0 0;
+    border-radius: 20px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+float: right;
+}
+
+.content{
+    background-color: lightpink;
+    width: 70%;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin: 0 0 0 0;
+}
+
+aside{
+    width: 20%;
+}
+
+.site-menu{
+
+    background-color: thistle;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin: 0 auto 10px auto;
+}
+
+footer{
+    clear: both;
+}
