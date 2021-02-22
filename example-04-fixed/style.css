@@ -1,0 +1,25 @@
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  background-color: aqua;
+}
+
+p {
+  background-color: beige;
+  width: 800px;
+  margin: 20px auto;
+  border: 2px solid green;
+  padding: 15px;
+}
+
+.fixblock {
+  width: 150px;
+  border: 2px yellow solid;
+  height: 500px;
+  text-align: center;
+  background-color: chartreuse;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  line-height: 25px;
+}
