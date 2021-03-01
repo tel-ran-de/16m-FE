@@ -1,0 +1,30 @@
+.boxes {
+  display: flex;
+  background-color: #ccc;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 100px auto 0;
+}
+
+.box {
+  color: white;
+  height: 200px;
+  border: 1px solid red;
+  flex-basis: 300px;
+  font-size: 30px;
+}
+
+.box-1 {
+  background-color: blue;
+  flex-grow: 0;
+}
+
+.box-2 {
+  background-color: rgb(255, 0, 0);
+  flex-grow: 0;
+}
+
+.box-3 {
+  background-color: #333;
+  flex-grow: 0;
+}

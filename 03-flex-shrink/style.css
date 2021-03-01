@@ -1,0 +1,25 @@
+.boxes {
+  display: flex;
+  background-color: #ccc;
+  flex-wrap: nowrap;
+  width: 80%;
+  margin: 100px auto 0;
+}
+
+.box {
+  color: white;
+  height: 200px;
+  border: 1px solid red;
+  flex-basis: 500px;
+  font-size: 30px;
+}
+
+.box-1 {
+  flex-shrink: 3;
+}
+.box-2 {
+  flex-shrink: 2;
+}
+.box-3 {
+  flex-shrink: 1;
+}
