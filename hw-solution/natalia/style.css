@@ -1,0 +1,130 @@
+.box {
+  border: rgb(117, 117, 117) 2px solid;
+  color: blueviolet;
+  text-align: center;
+  font-size: 2em;
+  margin: 10px;
+  padding: 10px;
+}
+.one {
+  width: 575px;
+  background: rgb(87, 128, 182);
+}
+
+.two {
+  width: 40px;
+  background: rgb(245, 208, 162);
+  display: inline-block;
+  height: 300px;
+}
+.three {
+  width: 400px;
+  background: rgb(179, 84, 84);
+  display: inline-block;
+}
+
+.four {
+  background-color: hsl(109, 73%, 90%);
+  width: 400px;
+  height: 218px;
+  position: relative;
+  bottom: 262px;
+  left: 89px;
+}
+.five {
+  width: 40px;
+  background: rgb(245, 208, 162);
+  position: relative;
+  bottom: 597px;
+  left: 535px;
+  height: 300px;
+}
+.six {
+  width: 575px;
+  background: rgb(199, 164, 77);
+  position: relative;
+  bottom: 587px;
+}
+
+.seven {
+  width: 260px;
+  background: rgb(170, 241, 241);
+  position: relative;
+  bottom: 587px;
+
+  display: inline-block;
+}
+.eight {
+  width: 260px;
+  background: rgb(170, 241, 241);
+  position: relative;
+  bottom: 587px;
+  display: inline-block;
+  left: 10px;
+}
+.nine {
+  width: 109px;
+  height: 65px;
+  background: rgb(247, 237, 184);
+  position: relative;
+  bottom: 587px;
+}
+.ten {
+  width: 109px;
+  height: 65px;
+  background: rgb(247, 237, 184);
+  position: relative;
+  bottom: 686px;
+  left: 152px;
+}
+.eleven {
+  width: 109px;
+  height: 65px;
+  background: rgb(247, 237, 184);
+  position: relative;
+  bottom: 785px;
+  left: 318px;
+}
+.twelve {
+  width: 109px;
+  height: 65px;
+  background: rgb(247, 237, 184);
+  position: relative;
+  bottom: 884px;
+  left: 470px;
+}
+
+.thirteen {
+  width: 150px;
+  height: 65px;
+  background: rgb(179, 221, 179);
+  position: relative;
+  bottom: 883px;
+  display: inline-block;
+}
+
+.fourteen {
+  width: 150px;
+  height: 65px;
+  background: rgb(179, 221, 179);
+  position: relative;
+  bottom: 883px;
+  display: inline-block;
+  left: 18px;
+}
+.fifteen {
+  width: 150px;
+  height: 65px;
+  background: rgb(179, 221, 179);
+  position: relative;
+  bottom: 883px;
+  display: inline-block;
+  left: 35px;
+}
+
+.sixteen {
+  width: 582px;
+  background: rgb(170, 167, 167);
+  position: relative;
+  bottom: 887px;
+}

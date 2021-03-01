@@ -1,0 +1,153 @@
+div {
+  margin: 10px;
+}
+.allbox {
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgb(114, 31, 192);
+  border: 1px black solid;
+}
+.box1 {
+  background-color: steelblue;
+  width: 800px;
+  height: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+  line-height: 80px;
+}
+.box2 {
+  width: 100px;
+  height: 310px;
+  position: absolute;
+  margin-left: 50px;
+  background-color: peachpuff;
+  line-height: 310px;
+}
+.box3 {
+  width: 500px;
+  height: 80px;
+  background-color: rgba(173, 13, 13, 0.87);
+  position: absolute;
+  margin-left: 200px;
+  line-height: 80px;
+}
+.box4 {
+  width: 100px;
+  height: 310px;
+  position: absolute;
+  background-color: peachpuff;
+  margin-left: 750px;
+  line-height: 310px;
+}
+.box5 {
+  width: 500px;
+  height: 210px;
+  background-color: rgba(132, 196, 126, 0.137);
+  position: relative;
+  margin-left: 200px;
+  margin-top: 120px;
+  line-height: 210px;
+}
+.box6 {
+  background-color: rgb(145, 142, 13);
+  width: 800px;
+  height: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  line-height: 80px;
+}
+.box7 {
+  background-color: rgb(146, 228, 231);
+  width: 380px;
+  height: 80px;
+  margin-left: 50px;
+  position: absolute;
+  line-height: 80px;
+}
+.box8 {
+  background-color: rgb(146, 228, 231);
+  width: 380px;
+  height: 80px;
+  margin-left: 470px;
+  margin-right: 50px;
+  margin-top: 20px;
+  position: relative;
+  line-height: 80px;
+}
+.box9 {
+  background-color: rgba(240, 213, 59, 0.774);
+  width: 180px;
+  height: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: absolute;
+  line-height: 100px;
+}
+.box10 {
+  background-color: rgba(240, 213, 59, 0.774);
+  width: 180px;
+  height: 100px;
+  margin-left: 250px;
+  margin-right: 50px;
+  position: absolute;
+  line-height: 100px;
+}
+.box11 {
+  background-color: rgba(240, 213, 59, 0.774);
+  width: 180px;
+  height: 100px;
+  margin-left: 470px;
+  margin-right: 50px;
+  position: absolute;
+  line-height: 100px;
+}
+.box12 {
+  background-color: rgba(240, 213, 59, 0.774);
+  width: 180px;
+  height: 100px;
+  margin-left: 670px;
+  margin-right: 50px;
+  margin-top: 20px;
+  position: relative;
+  line-height: 100px;
+}
+.box13 {
+  background-color: rgb(180, 221, 176);
+  width: 250px;
+  height: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: absolute;
+  line-height: 100px;
+}
+.box14 {
+  background-color: rgb(180, 221, 176);
+  width: 250px;
+  height: 100px;
+  margin-left: 325px;
+  margin-right: 50px;
+  position: absolute;
+  line-height: 100px;
+}
+.box15 {
+  background-color: rgb(180, 221, 176);
+  width: 250px;
+  height: 100px;
+  margin-left: 600px;
+  margin-right: 50px;
+  margin-top: 20px;
+  position: relative;
+  line-height: 100px;
+}
+.box16 {
+  background-color: gray;
+  width: 800px;
+  height: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  line-height: 60px;
+}

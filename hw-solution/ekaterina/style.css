@@ -1,0 +1,227 @@
+.box {
+  border: 6px solid skyblue;
+  padding: 30px 30px 30px 30px;
+  margin: 30px 30px 30px 30px;
+  width: 640px;
+  height: 880px;
+  text-align: center;
+}
+
+.one {
+  border: 2px solid black;
+  width: 600px;
+  height: 30px;
+  background: blue;
+  padding: 10px 10px 30px 10px;
+  margin: 5px 5px 10px 5px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: purple;
+}
+
+.two {
+  left: 20px;
+  border: 2px solid black;
+  width: 50px;
+  height: 170px;
+  background: pink;
+  margin: 25px 15px 20px 5px;
+  padding: 100px 10px 10px 10px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: purple;
+}
+
+.five {
+  left: 620px;
+  top: 170px;
+  border: 2px solid black;
+  width: 50px;
+  height: 170px;
+  background: pink;
+  padding: 100px 10px 10px 10px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: purple;
+  position: absolute;
+}
+
+.three {
+  top: 170px;
+  border: 2px solid black;
+  width: 400px;
+  height: 45px;
+  background: red;
+  padding: 10px 10px 10px 10px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: purple;
+  position: absolute;
+  margin: 0px 5px 10px 105px;
+}
+
+.four {
+  top: 270px;
+  border: 2px solid black;
+  width: 400px;
+  height: 120px;
+  background: bisque;
+  padding: 50px 10px 10px 10px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: purple;
+  position: absolute;
+  margin: 0px 5px 10px 105px;
+}
+
+.six {
+  border: 2px solid black;
+  width: 600px;
+  height: 30px;
+  background: yellowgreen;
+  padding: 10px 10px 30px 10px;
+  margin: 30px 5px 10px 5px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: purple;
+}
+
+.seven {
+  border: 2px solid black;
+  width: 270px;
+  height: 30px;
+  background: yellow;
+  padding: 10px 10px 30px 10px;
+  margin: 25px 5px 10px 5px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: purple;
+  position: absolute;
+}
+
+.eight {
+  top: 568px;
+  left: 395px;
+  border: 2px solid black;
+  width: 270px;
+  height: 30px;
+  background: yellow;
+  padding: 10px 10px 30px 10px;
+  margin: 25px 5px 10px 5px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: purple;
+  position: absolute;
+}
+
+.nine {
+  border: 2px solid black;
+  width: 115px;
+  height: 30px;
+  background: springgreen;
+  padding: 10px 10px 30px 10px;
+  margin: 120px 5px 10px 5px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: purple;
+  position: absolute;
+}
+
+.ten {
+  border: 2px solid black;
+  width: 115px;
+  height: 30px;
+  background: springgreen;
+  padding: 10px 10px 30px 10px;
+  margin: 120px 5px 10px 160px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: purple;
+  position: absolute;
+}
+
+.twelve {
+  top: 568px;
+  left: 550px;
+  border: 2px solid black;
+  width: 115px;
+  height: 30px;
+  background: springgreen;
+  padding: 10px 10px 30px 10px;
+  margin: 120px 5px 10px 5px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: purple;
+  position: absolute;
+}
+
+.eleven {
+  top: 568px;
+  left: 395px;
+  border: 2px solid black;
+  width: 115px;
+  height: 30px;
+  background: springgreen;
+  padding: 10px 10px 30px 10px;
+  margin: 120px 5px 10px 5px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: purple;
+  position: absolute;
+}
+
+.thirteen {
+  border: 2px solid black;
+  width: 160px;
+  height: 30px;
+  background: peru;
+  padding: 10px 10px 30px 10px;
+  margin: 215px 5px 10px 5px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: purple;
+}
+
+.fourteen {
+  top: 758px;
+  border: 2px solid black;
+  width: 160px;
+  height: 30px;
+  background: peru;
+  padding: 10px 10px 30px 10px;
+  margin: 15px 5px 10px 225px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: purple;
+  position: absolute;
+}
+
+.fivteen {
+  left: 220px;
+  top: 758px;
+  border: 2px solid black;
+  width: 160px;
+  height: 30px;
+  background: peru;
+  padding: 10px 10px 30px 10px;
+  margin: 15px 5px 10px 290px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: purple;
+  position: absolute;
+}
+
+.sixteen {
+  border: 2px solid black;
+  width: 600px;
+  height: 30px;
+  background: grey;
+  padding: 10px 10px 30px 10px;
+  margin: 30px 5px 10px 5px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: purple;
+}
+
+.line-6 div {
+}
